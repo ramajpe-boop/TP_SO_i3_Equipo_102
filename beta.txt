@@ -1,0 +1,26 @@
+Ramiro Perez
+--------informacion de red--------
+Configuraci¢n IP de Windows
+
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::2f9c:a6aa:9c3:bab7%3
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : home
+   Direcci¢n IPv6 . . . . . . . . . . : 2800:810:4f6:2983:b14d:990d:559c:2c3
+   Direcci¢n IPv6 . . . . . . . . . . : 2800:810:4f6:2983:cfea:4ca8:9742:ad20
+   Direcci¢n IPv6 temporal. . . . . . : 2800:810:4f6:2983:e42b:21f5:a51f:df32
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::ea6:8176:c375:b9f4%16
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.0.9
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : fe80::c23c:4ff:fee5:3c5c%16
+                                       192.168.0.1
+---------Hora------
+12:14
