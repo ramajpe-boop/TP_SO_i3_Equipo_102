@@ -24,3 +24,22 @@ Adaptador de Ethernet Ethernet:
                                        192.168.0.1
 ---------Hora------
 12:14
+GAMMA - Pablo Alejandro Keumurdji
+Configuración IP de Windows
+
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS específico para la conexión. . :
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.100.22
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.100.1
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::800:27ff:fe00:c%12
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 
+---------------------
