@@ -42,4 +42,27 @@ Adaptador de Ethernet Ethernet 2:
    DirecciÃ³n IPv4. . . . . . . . . . . . . . : 192.168.56.1
    MÃ¡scara de subred . . . . . . . . . . . . : 255.255.255.0
    Puerta de enlace predeterminada . . . . . : 
----------------------
+---------Hora------------
+12:38
+ALFA - Romero Valentin
+
+
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS específico para la conexión. . :
+   Dirección IPv6 . . . . . . . . . . : 2802:8010:b10c:e700:5c92:f8a:65a:ef63
+   Dirección IPv6 temporal. . . . . . : 2802:8010:b10c:e700:a0b2:4dea:eca0:c482
+   Vínculo: dirección IPv6 local. . . : fe80::44f:3bb5:48f0:4696%13
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.1.35
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : fe80::1%13
+                                       192.168.1.1
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS específico para la conexión. . :
+   Vínculo: dirección IPv6 local. . . : fe80::b2eb:2571:41ef:bbb4%7
+   Dirección IPv4 de configuración automática: 169.254.196.183
+   Máscara de subred . . . . . . . . . . . . : 255.255.0.0
+   Puerta de enlace predeterminada . . . . . :
