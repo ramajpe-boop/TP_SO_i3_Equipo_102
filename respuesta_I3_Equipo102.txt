@@ -1,5 +1,7 @@
 Responde BETA:
+
 a-¿Cómo queda el máster después de estos cambios?
+
 quedo con todos los cambios que se hicieron en la ramas.
 quedo asi:
 CPUALFA.txt
@@ -9,15 +11,46 @@ README.md
 beta.txt
 datos.txt
 b-¿Beta pudo ver todos los cambios que se realizaron?
+
 si, beta podia ver los cambios en las ramas que se crearon.
+
 c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+
 git switch main
 git pull origin main
 git merge Keumurdji
 git push origin main
+
 Responde GAMMA:
+
 d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+
+No siempre. La rama master/main queda actualizada cuando BETA hace el merge. Las otras ramas solo quedan actualizadas si se les hace pull o merge.
+
 e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+El problema fue que varios integrantes modificamos archivos en común, como datos.txt y beta.txt. Esto generó conflictos de merge, que se resolvieron editando los archivos, dejando los datos correctos, y luego haciendo add, commit y push.
+
 f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+
+
+git checkout Perez
+git pull origin Perez
+
+Modificar beta.txt:
+
+echo "" >> beta.txt
+echo "GAMMA - Pablo Alejandro Keumurdji" >> beta.txt
+echo "Informacion de red:" >> beta.txt
+ipconfig >> beta.txt
+echo "Hora: $(date)" >> beta.txt
+echo "------------------------" >> beta.txt
+
+Subir cambios:
+
+git add beta.txt
+git commit -m "GAMMA actualiza beta.txt"
+git push origin Pérez
+
 Responde ALFA:
+
 G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
