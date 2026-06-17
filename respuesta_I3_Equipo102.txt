@@ -53,4 +53,52 @@ git push origin Pérez
 
 Responde ALFA:
 
-G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido
+romer@V_X MINGW64 ~/Desktop/github/trajo SO3/TP_SO_i3_Equipo_102 (Perez)
+$ git pull origin Perez
+From https://github.com/ramajpe-boop/TP_SO_i3_Equipo_102
+ * branch            Perez      -> FETCH_HEAD
+Updating 1e10b4e..a7b70b7
+Fast-forward
+ CPUALFA.txt  | 324 ++++++++++++++++++++++++++++++++++++++++++++
+ CPUBeta.txt  | 104 ++++++++++++++
+ CPUGamma.txt | 432 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ beta.txt     |  45 +++++++
+ datos.txt    |  11 ++
+ 5 files changed, 916 insertions(+)
+ create mode 100644 CPUALFA.txt
+ create mode 100644 CPUBeta.txt
+ create mode 100644 CPUGamma.txt
+ create mode 100644 beta.txt
+
+romer@V_X MINGW64 ~/Desktop/github/trajo SO3/TP_SO_i3_Equipo_102 (Perez)
+$ git add .
+
+romer@V_X MINGW64 ~/Desktop/github/trajo SO3/TP_SO_i3_Equipo_102 (Perez)
+$ git commit -m "Punto 8 alfa"
+[Perez f4be92f] Punto 8 alfa
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+
+romer@V_X MINGW64 ~/Desktop/github/trajo SO3/TP_SO_i3_Equipo_102 (Perez)
+$ git push
+fatal: The current branch Perez has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Perez
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+romer@V_X MINGW64 ~/Desktop/github/trajo SO3/TP_SO_i3_Equipo_102 (Perez)
+$ git push -u origin Perez
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 590 bytes | 590.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ramajpe-boop/TP_SO_i3_Equipo_102.git
+   a7b70b7..f4be92f  Perez -> Perez
+branch 'Perez' set up to track 'origin/Perez'.
